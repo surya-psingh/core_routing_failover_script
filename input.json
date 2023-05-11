@@ -1,0 +1,12 @@
+{
+    "log_file": "tmp\/dstancioiu-1683530112.log",
+    "user": "dstancioiu",
+    "state": {
+        "sv2": {
+            "sv2": "enabled",
+            "dc6": "enabled"
+        }
+    },
+    "reason": "SV2 Switchboard restarts",
+    "issue": "https:\/\/agile.8x8.com\/browse\/NOC-135605"
+}
