@@ -4,6 +4,10 @@
     "state": {
         "sv2": {
             "sv2": "enabled",
+            "dc6": "disabled"
+        },
+        "dc6": {
+            "sv2": "disabled",
             "dc6": "enabled"
         }
     },
