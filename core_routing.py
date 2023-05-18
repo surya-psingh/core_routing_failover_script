@@ -49,7 +49,14 @@ def create_pull_request():
 
     # set up the API endpoint URL and authentication token
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/pulls"
-    auth_token = ""
+    # Load configuration
+    try:
+        with open('config.yaml') as f:
+            config = yaml.safe_load(f)
+            auth_token = config.get('auth_token')
+    except FileNotFoundError:
+        logger.error("Configuration file 'config.yaml' not found.")
+        exit(1)
 
     # set up the request headers and body
     headers = {
