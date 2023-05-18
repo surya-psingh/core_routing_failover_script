@@ -49,7 +49,7 @@ def create_pull_request():
 
     # set up the API endpoint URL and authentication token
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/pulls"
-    auth_token = "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"
+    auth_token = ""
 
     # set up the request headers and body
     headers = {
