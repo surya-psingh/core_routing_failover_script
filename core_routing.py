@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 # Load input data
 try:
-    with open('core_routing/input.json') as f:
+    with open('input.json') as f:
         input_data = json.load(f)
 except FileNotFoundError:
     logger.error("Input file 'core_routing/input.json' not found.")
@@ -127,7 +127,7 @@ def check_and_update_states():
             logger.error(f"Error parsing records file '{RECORDS_FILE}'.")
             exit(1)
 
-        tags = ["production"]
+        tags = ["core_routing"]
 
         # Filter records by tags
         filtered_records = {}
