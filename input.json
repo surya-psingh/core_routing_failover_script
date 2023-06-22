@@ -2,13 +2,126 @@
     "log_file": "tmp\/dstancioiu-1683530112.log",
     "user": "dstancioiu",
     "state": {
-        "sv2": {
-            "sv2": "enabled",
-            "dc6": "disabled"
+        "au2": {
+            "au": "disabled",
+            "au2": "enabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "disabled",
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "disabled"
         },
         "dc6": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "enabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
             "sv2": "disabled",
-            "dc6": "enabled"
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "disabled"
+        },
+        "eu1": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "enabled",
+            "eu2": "disabled",
+            "sv2": "disabled",
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "disabled"
+        },
+        "eu2": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "enabled",
+            "sv2": "disabled",
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "disabled"
+        },
+        "sv2": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "enabled",
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "disabled"
+        },
+        "ca1": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "enabled",
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "disabled"
+        },
+        "ca2": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "enabled",
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "disabled"
+        },
+        "thw": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "disabled",
+            "thw": "enabled",
+            "uk": "disabled",
+            "uk3": "disabled"
+        },
+        "uk": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "disabled",
+            "thw": "disabled",
+            "uk": "enabled",
+            "uk3": "disabled"
+        },
+        "cn1": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "disabled",
+            "thw": "disabled",
+            "uk": "enabled",
+            "uk3": "disabled"
+        },
+        "uk3": {
+            "au": "disabled",
+            "au2": "disabled",
+            "dc6": "disabled",
+            "eu1": "disabled",
+            "eu2": "disabled",
+            "sv2": "disabled",
+            "thw": "disabled",
+            "uk": "disabled",
+            "uk3": "enabled"
         }
     },
     "reason": "SV2 Switchboard restarts",

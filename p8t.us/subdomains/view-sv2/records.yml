@@ -1,7 +1,7 @@
 _sip._udp.aaa:
   options:
     dc6:
-      enabled: false
+      enabled: true
       values:
       - port: 5183
         priority: 3
@@ -12,7 +12,7 @@ _sip._udp.aaa:
         target: swb07-eq.p8t.us.
         weight: 5
     sv2:
-      enabled: true
+      enabled: false
       values:
       - port: 5183
         priority: 3
@@ -31,7 +31,7 @@ _sip._udp.aaa:
 _sip._udp.bbb:
   options:
     dc6:
-      enabled: false
+      enabled: true
       values:
       - port: 5183
         priority: 3
@@ -42,7 +42,7 @@ _sip._udp.bbb:
         target: swb07-eq.p8t.us.
         weight: 5
     sv2:
-      enabled: true
+      enabled: false
       values:
       - port: 5183
         priority: 3
@@ -61,7 +61,7 @@ _sip._udp.bbb:
 _sip._udp.ccc:
   options:
     dc6:
-      enabled: false
+      enabled: true
       values:
       - port: 5183
         priority: 3
@@ -72,7 +72,7 @@ _sip._udp.ccc:
         target: swb07-eq.p8t.us.
         weight: 5
     sv2:
-      enabled: true
+      enabled: false
       values:
       - port: 5183
         priority: 3

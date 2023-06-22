@@ -3,29 +3,29 @@ _sip._udp.bbb:
     dc6:
       enabled: true
       values:
-      - port: 5183
-        priority: 3
-        target: swb06-eq.p8t.us.
-        weight: 5
-      - port: 5183
-        priority: 3
-        target: swb07-eq.p8t.us.
-        weight: 5
+        - port: 5183
+          priority: 3
+          target: swb06-eq.p8t.us.
+          weight: 5
+        - port: 5183
+          priority: 3
+          target: swb07-eq.p8t.us.
+          weight: 5
     sv2:
       enabled: false
       values:
-      - port: 5183
-        priority: 3
-        target: swb06-sv2.p8t.us.
-        weight: 5
-      - port: 5183
-        priority: 3
-        target: swb07-sv2.p8t.us.
-        weight: 5
+        - port: 5183
+          priority: 3
+          target: swb06-sv2.p8t.us.
+          weight: 5
+        - port: 5183
+          priority: 3
+          target: swb07-sv2.p8t.us.
+          weight: 5
   tags:
-  - production
-  - vo-core
-  - bbb
+    - production
+    - vo-core
+    - bbb
   ttl: 300
   type: SRV-MERGE
 _sip._udp.ccc:
@@ -33,29 +33,29 @@ _sip._udp.ccc:
     dc6:
       enabled: true
       values:
-      - port: 5183
-        priority: 3
-        target: swb06-eq.p8t.us.
-        weight: 5
-      - port: 5183
-        priority: 3
-        target: swb07-eq.p8t.us.
-        weight: 5
+        - port: 5183
+          priority: 3
+          target: swb06-eq.p8t.us.
+          weight: 5
+        - port: 5183
+          priority: 3
+          target: swb07-eq.p8t.us.
+          weight: 5
     sv2:
       enabled: false
       values:
-      - port: 5183
-        priority: 3
-        target: swb06-sv2.p8t.us.
-        weight: 5
-      - port: 5183
-        priority: 3
-        target: swb07-sv2.p8t.us.
-        weight: 5
+        - port: 5183
+          priority: 3
+          target: swb06-sv2.p8t.us.
+          weight: 5
+        - port: 5183
+          priority: 3
+          target: swb07-sv2.p8t.us.
+          weight: 5
   tags:
-  - production
-  - vo-core
-  - ccc
+    - production
+    - vo-core
+    - ccc
   ttl: 300
   type: SRV-MERGE
 _sip._udp.ddd:
@@ -63,28 +63,28 @@ _sip._udp.ddd:
     dc6:
       enabled: true
       values:
-      - port: 5183
-        priority: 3
-        target: swb06-eq.p8t.us.
-        weight: 5
-      - port: 5183
-        priority: 3
-        target: swb07-eq.p8t.us.
-        weight: 5
+        - port: 5183
+          priority: 3
+          target: swb06-eq.p8t.us.
+          weight: 5
+        - port: 5183
+          priority: 3
+          target: swb07-eq.p8t.us.
+          weight: 5
     sv2:
       enabled: false
       values:
-      - port: 5183
-        priority: 3
-        target: swb06-sv2.p8t.us.
-        weight: 5
-      - port: 5183
-        priority: 3
-        target: swb07-sv2.p8t.us.
-        weight: 5
+        - port: 5183
+          priority: 3
+          target: swb06-sv2.p8t.us.
+          weight: 5
+        - port: 5183
+          priority: 3
+          target: swb07-sv2.p8t.us.
+          weight: 5
   tags:
-  - production
-  - vo-core
-  - aaa
+    - production
+    - vo-core
+    - aaa
   ttl: 300
   type: SRV-MERGE
